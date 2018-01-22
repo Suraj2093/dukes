@@ -103,7 +103,7 @@
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
                         <strong>
                                 <%=cont%>
-                                <% System.out.println("\n El contador va en : " + cont);%>
+                                <% System.out.println("\n The counter is in number : " + cont);%>
                         </strong>
                         </font>
                 </td>
@@ -118,7 +118,7 @@
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
                         <strong>
                                 <%=session.getId()%>
-                                        <% System.out.println("ID de session: " + session.getId());%>
+                                        <% System.out.println("ID from the session: " + session.getId());%>
                                 </strong>
                                 </font>
                 </td>
@@ -127,7 +127,7 @@
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
                         <strong>
-                                        El request fue solicitado por el host:
+                                        The request came from host:
                                 </strong>
                                 </font>
                 </td>
@@ -143,7 +143,7 @@
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
                         <strong>
-                                El host que esta atendiendo es:
+                                The host that's answering is:
                         </strong>
                         </font>
                 </td>
@@ -158,7 +158,7 @@
         <tr>
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                                La ip que esta contestando es:
+                                The IP of the node:
                         </font>
                 </td>
                 <td>
@@ -182,7 +182,7 @@
         <tr>
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                                El contextpath de la aplicacion es:
+                                The contextpath is:
                         </font>
                 </td>
                 <td>
@@ -194,7 +194,7 @@
         <tr>
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                                El servlet name es:
+                                The servlet name is:
                         </font>
                 </td>
                 <td>
@@ -218,7 +218,7 @@
         <tr>
                 <td colspan="2">
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                                Han pasado <%=new java.util.Date().getTime()%> secs desde 1900
+                                It's been  <%=new java.util.Date().getTime()%> secs since 1900
                         </font>
                 </td>
         </tr>
