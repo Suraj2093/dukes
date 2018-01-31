@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
         <head>
-                <title>My Tux Address</title>
+                <title>Penguin address</title>
                 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
         </head>
 
@@ -25,7 +25,7 @@
                 <td colspan="2">
                         <div align="center">
                                         <font size="+1" face="Verdana, Arial, Helvetica, sans-serif">
-                                                <strong>My POLLO Address is:</strong>
+                                                <strong>My Happy Address is:</strong>
                                         </font>
                         </div>
                 </td>
@@ -63,9 +63,9 @@
                 <tr>
                 <td colspan="2">
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                        <a href="<%=request.getContextPath()%>/testHA.jsp">Llamar</a><br>
+                        <a href="<%=request.getContextPath()%>/testHA.jsp">Test</a><br>
                         <!-- <hr> -->
-                                        <B>What's up!   Estamos probando ...</B>
+                                        <B>What's up! ...</B>
                                 </font>
                                 <!-- <hr>-->
                         </td>
@@ -103,7 +103,7 @@
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
                         <strong>
                                 <%=cont%>
-                                <% System.out.println("\n The counter is in number : " + cont);%>
+                                <% System.out.println("\n El contador va en : " + cont);%>
                         </strong>
                         </font>
                 </td>
@@ -111,14 +111,14 @@
         <tr>
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                                        El id de la sesion es:
+                                        Session ID is:
                                 </font>
                 </td  
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
                         <strong>
                                 <%=session.getId()%>
-                                        <% System.out.println("ID from the session: " + session.getId());%>
+                                        <% System.out.println("ID de session: " + session.getId());%>
                                 </strong>
                                 </font>
                 </td>
@@ -127,7 +127,7 @@
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
                         <strong>
-                                        The request came from host:
+                                        The host that requested was:
                                 </strong>
                                 </font>
                 </td>
@@ -143,7 +143,7 @@
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
                         <strong>
-                                The host that's answering is:
+                                The host that send the response is:
                         </strong>
                         </font>
                 </td>
@@ -158,7 +158,7 @@
         <tr>
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                                The IP of the node:
+                                IP where the response is coming from:
                         </font>
                 </td>
                 <td>
@@ -170,7 +170,7 @@
         <tr>
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                                Esta ip en hexadecimal es:
+                                Hexa IP:
                         </font>
                 </td>
                 <td>
@@ -182,7 +182,7 @@
         <tr>
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                                The contextpath is:
+                                Application context path:
                         </font>
                 </td>
                 <td>
@@ -194,7 +194,7 @@
         <tr>
                 <td>
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                                The servlet name is:
+                                Servlet name is:
                         </font>
                 </td>
                 <td>
@@ -218,7 +218,7 @@
         <tr>
                 <td colspan="2">
                         <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                                It's been  <%=new java.util.Date().getTime()%> secs since 1900
+                                It has been  <%=new java.util.Date().getTime()%> secs since 1900
                         </font>
                 </td>
         </tr>
