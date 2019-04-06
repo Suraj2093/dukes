@@ -33,7 +33,8 @@
                 <tr>
                 <td colspan="2">
                         <div align="center">
-                        <img src="http://i.giphy.com/8udjOmZuoL5e0.gif">
+                        <img src="https://raw.githubusercontent.com/danieloh30/dukes/master/images/quarkus1.png">
+                        <img src="https://raw.githubusercontent.com/danieloh30/dukes/master/images/quarkus2.png">
                 </div>
         </td>
                 </tr>
