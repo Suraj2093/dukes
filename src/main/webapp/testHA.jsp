@@ -25,7 +25,7 @@
                 <tr>
                         <td colspan="2">
                                 <div align="center">
-                                        <img src="https://raw.githubusercontent.com/danieloh30/dukes/master/images/wildfly_logo.png" width="600">
+                                        <img src="https://raw.githubusercontent.com/Suraj2093/dukes/master/images/redhat-logo.png" width="600">
                                 </div>
                         </td>
                         
